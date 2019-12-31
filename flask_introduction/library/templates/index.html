@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>{{library_name}} library</title>
+    <style type="text/css">
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to {{library_name}} library!</h1>
+    <ul>
+        {% for author in authors %}
+        <li>{{ author }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
