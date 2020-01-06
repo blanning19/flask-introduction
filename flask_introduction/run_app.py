@@ -19,6 +19,6 @@ from library._15_template_inheritance import app
 
 if __name__ == '__main__':
     app.debug = True
-    host = os.environ.get('IP', '10.0.0.73') #Windows doesn't work with 0.0.0.0
+    host = os.environ.get('IP', '127.0.0.1') #Windows doesn't work with 0.0.0.0
     port = int(os.environ.get('PORT', 8080))
     app.run(host=host, port=port)

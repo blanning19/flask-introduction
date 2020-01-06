@@ -1,0 +1,8 @@
+<html>
+    <h1>This is the list of books (With engine):</h1>
+    <ul>
+        {% for a in books %}
+            <li>{{a['id']}}: {{a['title']}}</li>
+        {% endfor %}
+    </ul>
+</html>
